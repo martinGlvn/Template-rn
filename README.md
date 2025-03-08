@@ -32,7 +32,7 @@ src/
 
 ```bash
 # Clonar el repositorio
-git clone https://github.com/tu-usuario/mi-template-rn.git mi-app
+git clone https://github.com/martinGlvn/Template-rn.git mi-app
 cd mi-app
 
 # Instalar dependencias
