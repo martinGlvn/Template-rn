@@ -14,19 +14,22 @@ Un template completo para aplicaciones React Native con Expo y TypeScript, que i
 - **Gestión de assets**: Expo Font, Expo Image
 - **Entornos**: react-native-dotenv
 - **Persistencia**: AsyncStorage
+- **Administración**: Tanstack Query
+- **Zod**: validaciones
 
 ## Estructura de carpetas
 src/
-├── assets/ # Imágenes, fuentes y otros recursos
-├── components/ # Componentes reutilizables
-├── hooks/ # Custom hooks
-├── navigation/ # Configuración de navegación
-├── screens/ # Pantallas de la aplicación
-├── services/ # Servicios API y externos
-├── store/ # Estado global con Zustand
-├── styles/ # Estilos globales
-├── types/ # Definiciones de tipos
-└── utils/ # Funciones utilitarias
+  ├── api/           # Llamadas API y servicios
+  ├── assets/        # Imágenes, fuentes, etc
+  ├── components/    # Componentes reutilizables
+  ├── constants/     # Valores constantes
+  ├── features/      # Módulos específicos
+  ├── hooks/         # Custom hooks
+  ├── navigation/    # Configuración de navegación
+  ├── stores/        # Estados globales (Zustand)
+  ├── theme/         # Estilos, configuración de NativeWind
+  ├── types/         # TypeScript interfaces/types
+  └── utils/         # Funciones utilitarias
 
 ## Instalación
 
